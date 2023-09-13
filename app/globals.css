@@ -21,3 +21,17 @@
 body {
   background-color: black;
 }
+
+.card-color {
+  background: rgb(9,9,9);
+background: linear-gradient(140deg, rgba(9,9,9,1) 0%, rgba(36,36,36,1) 45%, rgba(40,39,39,1) 57%, rgba(41,40,40,1) 59%, rgba(23,22,22,1) 100%);
+backdrop-filter: 10px;
+}
+
+::selection {
+  background: transparent;
+}
+
+::-moz-selection {
+  background: transparent;
+}
